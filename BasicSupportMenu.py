@@ -56,6 +56,59 @@ def reiniciar_red():
     os.system("netsh winsock reset")
     input("Presiona Enter para continuar...")
 
+def comprobar_estado_fsutil():
+    print("Comprobando el estado del sistema de archivos...")
+    os.system("fsutil dirty query C:")
+    input("Presiona Enter para continuar...")
+
+def mostrar_uso_disco():
+    print("Mostrando el uso del espacio en disco...")
+    os.system("wmic logicaldisk get size,freespace,caption")
+    input("Presiona Enter para continuar...")
+
+def mostrar_rendimiento():
+    print("Mostrando estadísticas de rendimiento del sistema...")
+    os.system("wmic cpu get loadpercentage")
+    os.system("wmic memorychip get capacity,devicelocator,partion")
+    input("Presiona Enter para continuar...")
+
+def verificar_proxy():
+    print("Verificando la configuración del proxy...")
+    os.system("netsh winhttp show proxy")
+    input("Presiona Enter para continuar...")
+
+def verificar_servicio_update():
+    print("Verificando el estado del servicio de Windows Update...")
+    os.system("sc query wuauserv")
+    input("Presiona Enter para continuar...")
+
+def analizar_uso_red():
+    print("Analizando el uso de la red...")
+    os.system("netstat -e")
+    input("Presiona Enter para continuar...")
+
+def mostrar_eventos_error():
+    print("Mostrando los eventos de error recientes...")
+    os.system("eventvwr.msc")
+    input("Presiona Enter para continuar...")
+
+def deshabilitar_servicio():
+    print("Deshabilitando un servicio...")
+    servicio = input("Ingresa el nombre del servicio que quieres deshabilitar: ")
+    os.system(f"sc config {servicio} start= disabled")
+    input(f"El servicio {servicio} ha sido deshabilitado. Presiona Enter para continuar...")
+
+def generar_informe_sistema():
+    print("Generando un informe completo del sistema...")
+    os.system("systeminfo > informe_sistema.txt")
+    print("Informe guardado como informe_sistema.txt")
+    input("Presiona Enter para continuar...")
+
+def ejecutar_solucionador():
+    print("Ejecutando el solucionador de problemas de red...")
+    os.system("msdt.exe /id NetworkDiagnosticsNetworkAdapter")
+    input("Presiona Enter para continuar...")
+
 def mostrar_menu():
     while True:
         print("\n===== Herramientas de Soporte Técnico =====")
@@ -70,6 +123,16 @@ def mostrar_menu():
         print("[9] Ejecutar limpieza de disco")
         print("[10] Listar servicios en ejecución")
         print("[11] Reiniciar configuración de red")
+        print("[12] Comprobar estado del sistema de archivos (fsutil)")
+        print("[13] Mostrar uso del espacio en disco")
+        print("[14] Mostrar estadísticas de rendimiento del sistema")
+        print("[15] Verificar configuración del proxy de red")
+        print("[16] Verificar el estado del servicio de Windows Update")
+        print("[17] Analizar el uso de la red")
+        print("[18] Mostrar eventos de error recientes")
+        print("[19] Deshabilitar servicios innecesarios")
+        print("[20] Generar informe del sistema")
+        print("[21] Ejecutar solucionador de problemas de red")
         print("[0] Salir")
         opcion = input("Selecciona una opción: ")
 
@@ -95,6 +158,26 @@ def mostrar_menu():
             listar_servicios_activos()
         elif opcion == "11":
             reiniciar_red()
+        elif opcion == "12":
+            comprobar_estado_fsutil()
+        elif opcion == "13":
+            mostrar_uso_disco()
+        elif opcion == "14":
+            mostrar_rendimiento()
+        elif opcion == "15":
+            verificar_proxy()
+        elif opcion == "16":
+            verificar_servicio_update()
+        elif opcion == "17":
+            analizar_uso_red()
+        elif opcion == "18":
+            mostrar_eventos_error()
+        elif opcion == "19":
+            deshabilitar_servicio()
+        elif opcion == "20":
+            generar_informe_sistema()
+        elif opcion == "21":
+            ejecutar_solucionador()
         elif opcion == "0":
             print("Saliendo del programa...")
             break
