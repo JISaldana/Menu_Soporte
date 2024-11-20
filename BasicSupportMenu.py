@@ -1,7 +1,6 @@
 import os
 from colorama import Fore, Back, Style, init
 
-#Change branch number 2
 # Inicializa colorama para que funcione en Windows
 init(autoreset=True)
 
