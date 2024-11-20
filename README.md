@@ -38,18 +38,25 @@ El script ofrece las siguientes opciones:
 
 1. **Descargar el script**  
    Descarga el archivo `.py` o clona el repositorio.
+   
+2. **Instala las dependencias necesarias**:
+Abre la terminal o línea de comandos, navega hasta el directorio donde guardaste el archivo y ejecuta el siguiente comando:
 
-2. **Ejecutar el script**  
+    ```bash
+    pip install -r requirements.txt
+    ```
+   
+3. **Ejecutar el script**  
    Abre la terminal o línea de comandos, navega hasta el directorio donde guardaste el archivo y ejecuta el siguiente comando:
 
    ```bash
    python nombre_del_script.py
    ```
 
-3. **Seleccionar una opción**  
+4. **Seleccionar una opción**  
    El programa te mostrará un menú interactivo. Selecciona el número correspondiente al comando que deseas ejecutar.
 
-4. **Resultados**  
+5. **Resultados**  
    El programa ejecutará el comando y mostrará los resultados en la terminal. Luego, podrás elegir otra opción o salir.
 
 ## Ejemplo de Uso
