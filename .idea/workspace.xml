@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8d6de17-05a8-4d5e-8c63-0084e2eecb22" name="Changes" comment="Initial Commit">
+    <list default="true" id="d8d6de17-05a8-4d5e-8c63-0084e2eecb22" name="Changes" comment="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicSupportMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSupportMenu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JISaldana"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JISaldana&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JISaldana/Menu_Soporte.git",
-    "accountId": "65854c28-2d17-4faa-87b0-e66b3e6f47fe"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JISaldana/Menu_Soporte.git&quot;,
+    &quot;accountId&quot;: &quot;65854c28-2d17-4faa-87b0-e66b3e6f47fe&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -49,9 +50,16 @@
     "Python.BasicSupportMenu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Yorugami/PycharmProjects/PythonProject/.venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yorugami\PycharmProjects\PythonProject\.venv" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,11 +84,29 @@
       <option name="project" value="LOCAL" />
       <updated>1732063780325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V 1.0.1&#10;&#10;&quot;Añadidas nuevas herramientas de diagnóstico y solución de problemas al script de soporte técnico.&quot;">
+      <option name="closed" value="true" />
+      <created>1732064834164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732064834164</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;">
+      <option name="closed" value="true" />
+      <created>1732065808397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732065808397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="V 1.0.1&#10;&#10;&quot;Añadidas nuevas herramientas de diagnóstico y solución de problemas al script de soporte técnico.&quot;" />
+    <MESSAGE value="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;" />
   </component>
 </project>
