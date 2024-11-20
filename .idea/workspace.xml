@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8d6de17-05a8-4d5e-8c63-0084e2eecb22" name="Changes" comment="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;">
+    <list default="true" id="d8d6de17-05a8-4d5e-8c63-0084e2eecb22" name="Changes" comment="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicSupportMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSupportMenu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1732065808397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;">
+      <option name="closed" value="true" />
+      <created>1732069032066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732069032066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="V 1.0.1&#10;&#10;&quot;Añadidas nuevas herramientas de diagnóstico y solución de problemas al script de soporte técnico.&quot;" />
     <MESSAGE value="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;" />
+    <MESSAGE value="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;" />
   </component>
 </project>
