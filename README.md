@@ -7,37 +7,27 @@ Este es un script en Python que recopila y ejecuta comandos útiles de la termin
 El script ofrece las siguientes opciones:
 
 1. **Ejecutar ScanDisk (CHKDSK)**  
-   Realiza un chequeo del disco y corrige errores en la unidad C:.
-
-2. **Desplegar lista de actualizaciones recientes de Windows**  
-   Muestra las actualizaciones recientes que se han instalado en el sistema.
-
+2. **Desplegar lista de actualizaciones recientes de Windows** 
 3. **Verificar conectividad a Internet**  
-   Realiza un *ping* a 8.8.8.8 para verificar la conectividad con la red.
-
 4. **Mostrar configuración de red completa**  
-   Muestra la configuración completa de la red del sistema, incluyendo direcciones IP y detalles de la red.
-
 5. **Limpiar caché de DNS**  
-   Limpia la caché DNS para solucionar problemas de resolución de nombres de dominio.
-
 6. **Reparar imagen del sistema (DISM)**  
-   Repara los archivos del sistema de Windows utilizando la herramienta DISM (Deployment Imaging Service and Management Tool).
-
 7. **Verificar integridad de archivos del sistema (SFC)**  
-   Verifica y repara archivos del sistema dañados utilizando la herramienta SFC (System File Checker).
-
 8. **Listar procesos activos**  
-   Muestra todos los procesos en ejecución en el sistema.
-
 9. **Ejecutar limpieza de disco**  
-   Ejecuta el limpiador de disco para liberar espacio en el sistema.
-
 10. **Listar servicios en ejecución**  
-    Muestra todos los servicios que se están ejecutando en el sistema.
+11. **Reiniciar configuración de red**
+12. **Comprobar el estado del sistema de archivos (fsutil)**
+13. **Mostrar uso del espacio en disco**
+14. **Mostrar estadísticas de rendimiento del sistema**
+15. **Verificar configuración del proxy de red**
+16. **Verificar el estado del servicio de Windows Update**
+17. **Analizar el uso de la red**
+18. **Mostrar eventos de error recientes**
+19. **Deshabilitar servicios innecesarios**
+20. **Generar informe del sistema**
+21. **Ejecutar solucionador de problemas de red**
 
-11. **Reiniciar configuración de red**  
-    Restaura la configuración de la red y el socket Winsock.
 
 ## Requisitos
 
