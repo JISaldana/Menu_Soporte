@@ -17,16 +17,16 @@ El script ofrece las siguientes opciones:
 9. **Ejecutar limpieza de disco**  
 10. **Listar servicios en ejecución**  
 11. **Reiniciar configuración de red**
-12. **Comprobar el estado del sistema de archivos (fsutil)
-13. **Mostrar uso del espacio en disco
-14. **Mostrar estadísticas de rendimiento del sistema
-15. **Verificar configuración del proxy de red
-16. **Verificar el estado del servicio de Windows Update
-17. **Analizar el uso de la red
-18. **Mostrar eventos de error recientes
-19. **Deshabilitar servicios innecesarios
-20. **Generar informe del sistema
-21. **Ejecutar solucionador de problemas de red
+12. **Comprobar el estado del sistema de archivos (fsutil)**
+13. **Mostrar uso del espacio en disco**
+14. **Mostrar estadísticas de rendimiento del sistema**
+15. **Verificar configuración del proxy de red**
+16. **Verificar el estado del servicio de Windows Update**
+17. **Analizar el uso de la red**
+18. **Mostrar eventos de error recientes**
+19. **Deshabilitar servicios innecesarios**
+20. **Generar informe del sistema**
+21. **Ejecutar solucionador de problemas de red**
 
 
 ## Requisitos
