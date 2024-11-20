@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8d6de17-05a8-4d5e-8c63-0084e2eecb22" name="Changes" comment="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;">
+    <list default="true" id="d8d6de17-05a8-4d5e-8c63-0084e2eecb22" name="Changes" comment="V 1.0.3&#10;&#10;&quot;Correcciones menores&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicSupportMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSupportMenu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,8 +38,21 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JISaldana/Menu_Soporte.git&quot;,
     &quot;accountId&quot;: &quot;65854c28-2d17-4faa-87b0-e66b3e6f47fe&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;JISaldana&quot;,
+    &quot;repository&quot;: &quot;Menu_Soporte&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -48,8 +67,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.BasicSupportMenu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "#2 on feature/test-func",
     "last_opened_file_path": "C:/Users/Yorugami/PycharmProjects/PythonProject/.venv",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -107,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732069032066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="V 1.0.3&#10;&#10;&quot;Correcciones menores&quot;">
+      <option name="closed" value="true" />
+      <created>1732110956219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732110956219</updated>
+    </task>
+    <task id="LOCAL-00006" summary="V 1.0.3&#10;&#10;&quot;Correcciones menores&quot;">
+      <option name="closed" value="true" />
+      <created>1732112208647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732112208647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +151,7 @@
     <MESSAGE value="V 1.0.1&#10;&#10;&quot;Añadidas nuevas herramientas de diagnóstico y solución de problemas al script de soporte técnico.&quot;" />
     <MESSAGE value="V 1.0.2&#10;&#10;&quot;Se cambio la posicion de las funcionalidades en el menu de forma que sea posible ordenarlos por categorias&quot;" />
     <MESSAGE value="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="V 1.0.3&#10;&#10;&quot;Se añadieron colores para mejorar la visualizacion de las categorias y las interacciones&quot;" />
+    <MESSAGE value="V 1.0.3&#10;&#10;&quot;Correcciones menores&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.0.3&#10;&#10;&quot;Correcciones menores&quot;" />
   </component>
 </project>
