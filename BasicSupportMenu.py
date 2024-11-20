@@ -109,80 +109,94 @@ def ejecutar_solucionador():
     os.system("msdt.exe /id NetworkDiagnosticsNetworkAdapter")
     input("Presiona Enter para continuar...")
 
+
 def mostrar_menu():
     while True:
         print("\n===== Herramientas de Soporte Técnico =====")
-        print("[1] Ejecutar ScanDisk (CHKDSK)")
-        print("[2] Desplegar lista de actualizaciones recientes de Windows")
-        print("[3] Verificar conectividad a Internet")
-        print("[4] Mostrar configuración de red completa")
-        print("[5] Limpiar caché de DNS")
-        print("[6] Reparar imagen del sistema (DISM)")
-        print("[7] Verificar integridad de archivos del sistema (SFC)")
-        print("[8] Listar procesos activos")
-        print("[9] Ejecutar limpieza de disco")
-        print("[10] Listar servicios en ejecución")
-        print("[11] Reiniciar configuración de red")
-        print("[12] Comprobar estado del sistema de archivos (fsutil)")
-        print("[13] Mostrar uso del espacio en disco")
-        print("[14] Mostrar estadísticas de rendimiento del sistema")
-        print("[15] Verificar configuración del proxy de red")
-        print("[16] Verificar el estado del servicio de Windows Update")
-        print("[17] Analizar el uso de la red")
-        print("[18] Mostrar eventos de error recientes")
-        print("[19] Deshabilitar servicios innecesarios")
-        print("[20] Generar informe del sistema")
-        print("[21] Ejecutar solucionador de problemas de red")
-        print("[0] Salir")
+
+        # Menú de diagnóstico de red
+        print("\n[Diagnóstico de Red]")
+        print("[1] Verificar conectividad a Internet")
+        print("[2] Mostrar configuración de red completa")
+        print("[3] Limpiar caché de DNS")
+        print("[4] Reiniciar configuración de red")
+        print("[5] Verificar configuración del proxy de red")
+        print("[6] Analizar el uso de la red")
+
+        # Menú de mantenimiento del sistema
+        print("\n[Mantenimiento del Sistema]")
+        print("[7] Ejecutar ScanDisk (CHKDSK)")
+        print("[8] Desplegar lista de actualizaciones recientes de Windows")
+        print("[9] Reparar imagen del sistema (DISM)")
+        print("[10] Verificar integridad de archivos del sistema (SFC)")
+        print("[11] Ejecutar limpieza de disco")
+        print("[12] Generar informe del sistema")
+
+        # Menú de servicios y procesos
+        print("\n[Servicios y Procesos]")
+        print("[13] Listar procesos activos")
+        print("[14] Listar servicios en ejecución")
+        print("[15] Verificar el estado del servicio de Windows Update")
+        print("[16] Deshabilitar servicios innecesarios")
+
+        # Menú de diagnóstico avanzado
+        print("\n[Diagnóstico Avanzado]")
+        print("[17] Comprobar estado del sistema de archivos (fsutil)")
+        print("[18] Mostrar uso del espacio en disco")
+        print("[19] Mostrar estadísticas de rendimiento del sistema")
+        print("[20] Mostrar eventos de error recientes")
+
+        print("\n[0] Salir")
+
         opcion = input("Selecciona una opción: ")
 
+        # Llamada a las funciones según la selección
         if opcion == "1":
-            ejecutar_scandisk()
-        elif opcion == "2":
-            listar_actualizaciones()
-        elif opcion == "3":
             verificar_conectividad()
-        elif opcion == "4":
+        elif opcion == "2":
             mostrar_config_red()
-        elif opcion == "5":
+        elif opcion == "3":
             limpiar_cache_dns()
-        elif opcion == "6":
-            reparar_imagen_dism()
-        elif opcion == "7":
-            verificar_integridad_sfc()
-        elif opcion == "8":
-            listar_procesos_activos()
-        elif opcion == "9":
-            liberar_espacio_disco()
-        elif opcion == "10":
-            listar_servicios_activos()
-        elif opcion == "11":
+        elif opcion == "4":
             reiniciar_red()
-        elif opcion == "12":
-            comprobar_estado_fsutil()
-        elif opcion == "13":
-            mostrar_uso_disco()
-        elif opcion == "14":
-            mostrar_rendimiento()
-        elif opcion == "15":
+        elif opcion == "5":
             verificar_proxy()
-        elif opcion == "16":
-            verificar_servicio_update()
-        elif opcion == "17":
+        elif opcion == "6":
             analizar_uso_red()
-        elif opcion == "18":
-            mostrar_eventos_error()
-        elif opcion == "19":
-            deshabilitar_servicio()
-        elif opcion == "20":
+        elif opcion == "7":
+            ejecutar_scandisk()
+        elif opcion == "8":
+            listar_actualizaciones()
+        elif opcion == "9":
+            reparar_imagen_dism()
+        elif opcion == "10":
+            verificar_integridad_sfc()
+        elif opcion == "11":
+            liberar_espacio_disco()
+        elif opcion == "12":
             generar_informe_sistema()
-        elif opcion == "21":
-            ejecutar_solucionador()
+        elif opcion == "13":
+            listar_procesos_activos()
+        elif opcion == "14":
+            listar_servicios_activos()
+        elif opcion == "15":
+            verificar_servicio_update()
+        elif opcion == "16":
+            deshabilitar_servicio()
+        elif opcion == "17":
+            comprobar_estado_fsutil()
+        elif opcion == "18":
+            mostrar_uso_disco()
+        elif opcion == "19":
+            mostrar_rendimiento()
+        elif opcion == "20":
+            mostrar_eventos_error()
         elif opcion == "0":
             print("Saliendo del programa...")
             break
         else:
             print("Opción no válida. Por favor, intenta de nuevo.")
+
 
 if __name__ == "__main__":
     mostrar_menu()
