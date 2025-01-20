@@ -1,4 +1,4 @@
-# Soporte Técnico CMD - Herramientas en Python
+# Menu de Soporte Técnico CMD
 
 Este es un script en Python que recopila y ejecuta comandos útiles de la terminal de Windows (CMD) para diagnosticar y resolver problemas comunes de sistemas. El script presenta un menú interactivo donde el usuario puede seleccionar distintas opciones para ejecutar herramientas como el análisis de disco, ver actualizaciones recientes, limpiar caché de DNS y más.
 
